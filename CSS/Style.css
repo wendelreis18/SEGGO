@@ -1,0 +1,24 @@
+ main { position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 2px;
+    
+    background: rgba(196, 196, 196);
+ }
+ 
+h2 {color: #0F25E6;
+    font-family: Facon;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 23px;
+    border: 1px solid #0F25E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background:linear-gradient(180deg, rgba(15, 37, 230, 0.8) 0%, rgba(115, 179, 255, 0.8) 42.19%, rgba(115, 179, 255, 0.8) 67.19%, rgba(15, 37, 230, 0.8) 100%);
+}
+
+body{
+text-align: center;
+
+}
