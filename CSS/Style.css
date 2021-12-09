@@ -1,24 +1,111 @@
- main { position: absolute;
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 12.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+main { position:absolute;
     width: 100%;
     left: 0px;
     top: 2px;
     
     background: rgba(196, 196, 196);
  }
- 
+
+ hr{ 
+    border: 2px solid #0F25E6;
+ }
+
+ #menu ul{
+    padding: 5px;
+    margin: -2px;
+    background-color: rgba(15, 37, 230, 0.8);
+    list-style:none;
+    border-radius: 5px;
+ }
+
+ #menu ul li{
+     display: inline;
+
+ }
+
+ #menu ul li a{
+     display: inline-flex;
+    padding: 10px 30px;
+    background:linear-gradient(180deg, rgba(15, 37, 230, 0.8) 0%, rgba(115, 179, 255, 0.8) 42.19%, rgba(115, 179, 255, 0.8) 67.19%, rgba(15, 37, 230, 0.8) 100%);
+    color:#0F25E6;
+    text-decoration:none;
+    border-bottom: 10px solid #0F25E6;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: Facon;
+ }
+
+ #menu ul li a:hover{
+    background-color: cyan;
+    color: black;
+    border-bottom: 3px solid #0F25E6;
+ }
+
 h2 {color: #0F25E6;
     font-family: Facon;
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
-    line-height: 23px;
+    line-height: 30px;
     border: 1px solid #0F25E6;
     box-sizing: border-box;
     border-radius: 5px;
     background:linear-gradient(180deg, rgba(15, 37, 230, 0.8) 0%, rgba(115, 179, 255, 0.8) 42.19%, rgba(115, 179, 255, 0.8) 67.19%, rgba(15, 37, 230, 0.8) 100%);
 }
 
+h3{
+    font-family: Facon;
+    color: rgba(15, 37, 230, 0.8);
+
+}
+.Imagens {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.Ima {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    font-size: 0px;
+    text-align: center;
+}
+
+.Lista {
+    display: grid;
+    grid-gap: 5px 5px;
+    grid-template-columns: auto auto auto;
+    background-color: #0F25E6;
+    padding: 10px;
+}
+.Pacote{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
 body{
-text-align: center;
+    text-align: center;
 
 }
