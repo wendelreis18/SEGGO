@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SEG'GO</title>
     <link rel="stylesheet" href="CSS/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,27 +25,139 @@
     </ul>
 </nav>
 </div>    
-</main><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</main><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <hr>
 <!---VIDEO-->
-<div class="video";> 
-    <video width="100%";
-    height="100%";
-    controls="controls">
-<source src="Videos/9convert.com - MOUNTAIN OF HELL 2019  WINNING RUN  FULL RACE X Kilian Bron.mp4" type="video/mp4">
-</video>
+<div class="video"> 
+  <iframe width="100%" height="550" src="https://www.youtube.com/embed/mR1HPBxcaVI?start=27" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
 </div>
 <hr>
 <!---ALARME-->
 <div>
     <h2><a href="Paginas/Alarmes.html">ALARMES</a></h2>
-    <div class="Imagens">
-        <div class="Ima"><img src="Imagens/RASTREADORES/rastreador androed.jpg" alt="camera blackrastreador androed" height="50%" width="100%"></div>
-        <div class="Ima"><img src="Imagens/RASTREADORES/rastreador mini.jpg" alt="rastreador mini" height="50%" width="100%"></div>
-        <div class="Ima"><img src="Imagens/RASTREADORES/rastreador mini22.jpg" alt="rastreador mini22" height="50%" width="100%"></div>
-        <div class="Ima"><img src="Imagens/RASTREADORES/rastreador_mini.jpg" alt="rastreador_mini" height="50%" width="100%"></div>
-        <div class="Ima"><img src="Imagens/RASTREADORES/rastreador_mini01.jpg" alt="rastreador_mini01" height="50%" width="100%"></div>
-        <div class="Ima"><img src="Imagens/RASTREADORES/rastreador_mini11.jpg" alt="rastreador_mini11" height="50%" width="100%"></div>
+    <div id="tab1" class="tab-pane active">
+      <div class="products-slick" data-nav="#slick-nav-1">
+        <!-- product -->
+        <div class="product">
+          <div class="product-img">
+            <img src="Imagens/RASTREADORES/rastreador androed.jpg" alt="Rastreador Androed" width="33%" height="150px">
+            <div class="product-label">
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Category</p>
+            <h3 class="product-name"><a href="#">product name goes here</a></h3>
+            <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+          <div class="add-to-cart">
+            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>Adicionar no carrinho</button>
+          </div>
+        </div>
+        <!-- /product -->
+
+        <!-- product -->
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/product02.png" alt="">
+            <div class="product-label">
+              <span class="new">NEW</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Category</p>
+            <h3 class="product-name"><a href="#">product name goes here</a></h3>
+            <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          </div>
+          <div class="add-to-cart">
+            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Adicionar no carrinho</button>
+          </div>
+        </div>
+        <!-- /product -->
+
+        <!-- product -->
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/product03.png" alt="">
+            <div class="product-label">
+              <span class="sale">-30%</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <p class="product-category">Category</p>
+            <h3 class="product-name"><a href="#">product name goes here</a></h3>
+            <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+            <div class="product-rating">
+            </div>
+          </div>
+          <div class="add-to-cart">
+            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>Adicionar no carrinho</button>
+          </div>
+        </div>
+        <!-- /product -->
+
+        <!-- product -->
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/product04.png" alt="">
+          </div>
+          <div class="product-body">
+            <p class="product-category">Category</p>
+            <h3 class="product-name"><a href="#">product name goes here</a></h3>
+            <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+          <div class="add-to-cart">
+            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>Adicionar no carrinho</button>
+          </div>
+        </div>
+        <!-- /product -->
+
+        <!-- product -->
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/product05.png" alt="">
+          </div>
+          <div class="product-body">
+            <p class="product-category">Category</p>
+            <h3 class="product-name"><a href="">product name goes here</a></h3>
+            <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+          <div class="add-to-cart">
+            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>Adicionar no carrinho</button>
+          </div>
+        </div>
+        <!-- /product -->
+      </div>
+      <div id="slick-nav-1" class="products-slick-nav"></div>
     </div>
 </div>
 <hr>
@@ -79,33 +192,36 @@
 </div><br>
 <hr>
 <!---CARROSSEL-->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="Imagens/CARROSSEL/Ciclistas.jpg" class="d-block w-100" alt="Time de Bike">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Proximo</span>
-    </button>
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
   </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Imagens/CARROSSEL/Ciclistas.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="Imagens/CARROSSEL/Ciclistas.jpg" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="Imagens/CARROSSEL/Ciclistas.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
 <hr>
 <!---BICICLETA-->
 <div><h2><a href="Paginas/Bicicletas.html">BICICLETAS</a></h2>
@@ -140,4 +256,7 @@
 
 
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js">
+
+</script>
 </html>
