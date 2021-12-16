@@ -9,7 +9,6 @@ main{
     opacity: 0.7;
     color: white;
 }
-
 body{
     background-image: url(../../Imagens/BACKGROUND/Ciclista.jpg);
     background-repeat: no-repeat ;
@@ -23,4 +22,22 @@ body{
 }
 .container{
     display: flex;
+    color: black;
+    font-family: Facon;
+    
+}
+.card{
+    margin: 10px;
+    background-color: blue;
+}
+.card-img-top{
+    border: solid 5px blue;
+}
+.btn{
+    background-color: black;
+    border: solid 1px white;
+    color: white;
+}
+footer{
+    text-align: right;
 }
