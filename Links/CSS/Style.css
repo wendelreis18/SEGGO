@@ -78,16 +78,18 @@ body{
   color: white;
   margin: 5px;
 }
-.bg-gold{
+.bg-gold, .pc-pm{
   background-color: darkgoldenrod;
 }
 .pc-sp, .pc-pm{
-  background-color: blue;
   height: 150px;
   width: 50px;
   padding: 5px;
   margin: 4px;
   border-radius: 10px;
+}
+.pc-sp{
+ background-color: black;
 }
 
 footer{
